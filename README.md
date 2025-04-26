@@ -1,12 +1,13 @@
 # Project: Deep Parametric PDE Method
 
 ## Overview
-This project contains a discussion and a toy implementation of the method presented in the research paper "[<i>The deep parametric PDE method and applications to option pricing</i>](https://doi.org/10.1016/j.amc.2022.127355)" of K. Glau and L. Wunderlich. We solve the problem of pricing a European basket put (and call) option for $d=2$ assets, based on a highway neural network. A short summary of our work, used for our project defense, is available in the file [slides](slides.pdf).
+This project contains a discussion and a toy implementation of the method presented in the research paper "[<i>The deep parametric PDE method and applications to option pricing</i>](https://doi.org/10.1016/j.amc.2022.127355)" of K. Glau and L. Wunderlich. We solve the problem of pricing a European basket put (and call) option for $d=2$ assets, based on a highway neural network. A short summary of our work, used for our project defense, is available in the file [slides](slides.pdf). The folders [backup_models](backup_models/) and [others](others/) contain the backup of the models in ase of bad ùanipulations, as well as the figures used in our oral defence and report.
 
 ## Features
 - Implementation of a highway neural network using `keras` and `tensorflow`.
 - Definition of the loss and training procedure based on a least squares approach and integration of a no-arbitrage bound.
 - Visualization n°1: option price, residual (option price minus no-arbitrage bound), and error (compared to a reference pricer) surfaces based on the two assets spot prices.
+- Visualization n°2: option price vs. option price obtained through call-put parity surfaces based on the two assets spot prices.
 - Visualization n°2: comparison of option price vs. reference option price for randomly sampled points in the domain.
 
 ## Requirements
