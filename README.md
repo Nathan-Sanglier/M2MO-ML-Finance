@@ -19,7 +19,7 @@ Open the file [notebook.ipynb](notebook.ipynb) and follow these steps:
 2. You can either load a pre-trained model for a call/put available in the folder [models](models/) by setting `load_model=True` or train a new model by setting `load_model=False`. If `save_model=True`, the model will be saved in the [models](models/) folder.
 
 ## To go Further
-The folders [backup_models](backup_models/) and [others](others/) contain the backup of the models in ase of bad ùanipulations, as well as the figures used in our oral defence and report.
+The folders [backup_models](backup_models/) and [others](others/) contain the backup of the models in ase of bad ùanipulations, as well as the figures used in our oral defense and report.
 Look at the [report](report.pdf) for a detailed investigation of the Deep Parametric PDE Method and a literature review.
 
 ### Authors
