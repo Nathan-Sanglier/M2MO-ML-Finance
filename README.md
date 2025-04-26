@@ -1,7 +1,7 @@
 # Project: Deep Parametric PDE Method
 
 ## Overview
-This project contains a discussion and a toy implementation of the method presented in the research paper "[<i>The deep parametric PDE method and applications to option pricing</i>](https://doi.org/10.1016/j.amc.2022.127355)" of K. Glau and L. Wunderlich. We solve the problem of pricing a European basket put (and call) option for $d=2$ assets, based on a highway neural network. A short summary of our work, used for our project defense, is available in the file [slides](slides.pdf). The folders [backup_models](backup_models/) and [others](others/) contain the backup of the models in ase of bad ùanipulations, as well as the figures used in our oral defence and report.
+This project contains a discussion and a toy implementation of the method presented in the research paper "[<i>The deep parametric PDE method and applications to option pricing</i>](https://doi.org/10.1016/j.amc.2022.127355)" of K. Glau and L. Wunderlich. We solve the problem of pricing a European basket put (and call) option for $d=2$ assets, based on a highway neural network. A short summary of our work, used for our project defense, is available in the file [slides](slides.pdf).
 
 ## Features
 - Implementation of a highway neural network using `keras` and `tensorflow`.
@@ -19,6 +19,7 @@ Open the file [notebook.ipynb](notebook.ipynb) and follow these steps:
 2. You can either load a pre-trained model for a call/put available in the folder [models](models/) by setting `load_model=True` or train a new model by setting `load_model=False`. If `save_model=True`, the model will be saved in the [models](models/) folder.
 
 ## To go Further
+The folders [backup_models](backup_models/) and [others](others/) contain the backup of the models in ase of bad ùanipulations, as well as the figures used in our oral defence and report.
 Look at the [report](report.pdf) for a detailed investigation of the Deep Parametric PDE Method and a literature review.
 
 ### Authors
